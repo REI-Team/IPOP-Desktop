@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerDesencript">
+   <top>
+      <AnchorPane prefHeight="400.0" prefWidth="602.0" style="-fx-background-color: #c9dce2;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_CENTER" layoutX="1.0" layoutY="14.0" prefHeight="36.0" prefWidth="600.0" text="DESENCRIPTAR" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="Rubik Bold Italic" size="27.0" />
+               </font>
+            </Label>
+            <Button defaultButton="true" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="&lt;&lt;" />
+            <Button layoutX="265.0" layoutY="251.0" mnemonicParsing="false" text="DESENCRIPTAR" />
+            <Label layoutX="143.0" layoutY="128.0" text="CLAU PRIVADA:" />
+            <Label layoutX="185.0" layoutY="192.0" text="DESTÍ:" />
+            <Label layoutX="184.0" layoutY="161.0" text="ARXIU:" />
+            <TextField layoutX="265.0" layoutY="124.0" />
+            <TextField layoutX="265.0" layoutY="157.0" />
+            <TextField layoutX="265.0" layoutY="187.0" />
+            <Label layoutX="142.0" layoutY="96.0" text="CONTRASENYA:" />
+            <TextField layoutX="265.0" layoutY="92.0" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
