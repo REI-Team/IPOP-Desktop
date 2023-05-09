@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#handleMenuAction" onMouseEntered="#mouse" onMouseExited="#exit" prefHeight="48.0" prefWidth="594.0" style="-fx-background-color: #c9dce9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerListButton">
+   <children>
+      <Label fx:id="points" layoutX="371.0" layoutY="5.0" style="-fx-border-color: black;">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="title" layoutX="14.0" layoutY="6.0" text="AQUI EL NOMBRE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img" fitHeight="46.0" fitWidth="60.0" layoutX="520.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="46.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="594.0" />
+   </children>
+</AnchorPane>
