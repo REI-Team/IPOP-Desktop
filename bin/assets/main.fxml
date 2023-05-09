@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="758.0" prefWidth="734.0" style="-fx-background-color: #c9dce2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerMain">
+   <children>
+      <Label layoutX="96.0" layoutY="25.0" text="Administració ranking">
+         <font>
+            <Font name="Rubik Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vbox" layoutX="27.0" layoutY="128.0" prefHeight="552.0" prefWidth="680.0" />
+      <Label fx:id="Info" layoutX="34.0" layoutY="84.0" />
+      <ProgressIndicator fx:id="loading" layoutX="341.0" layoutY="75.0" visible="false" />
+      <Button fx:id="back" defaultButton="true" disable="true" layoutX="334.0" layoutY="719.0" mnemonicParsing="false" onAction="#previousPage" text="&lt;&lt;" />
+      <Button fx:id="next" defaultButton="true" disable="true" layoutX="367.0" layoutY="719.0" mnemonicParsing="false" onAction="#nextPage" text="&gt;&gt;" />
+   </children>
+</AnchorPane>
